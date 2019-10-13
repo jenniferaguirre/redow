@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var randomNumber = Math.floor(Math.random() * 101) + 19;
     randomNumber = parseInt(randomNumber);
-    $("#randomNumber").append(randomNumber);
+    $("#randomNumber").text("Target Score : " + randomNumber);
 
     var wins = 0
     var losses = 0
@@ -22,7 +22,7 @@ $(document).ready(function () {
     function restart() {
         userScore = 0
         randomNumber = Math.floor(Math.random() * 101) + 19;
-        $("#randomNumber").html(randomNumber);
+        $("#randomNumber").html( "Target number : " + randomNumber);
         crystal1Number = Math.floor(Math.random() * 12) + 1;
         crystal2Number = Math.floor(Math.random() * 12) + 1;
         crystal3Number = Math.floor(Math.random() * 12) + 1;
