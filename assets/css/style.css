@@ -1,0 +1,52 @@
+h1{
+  
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    padding: 60px;
+
+}
+
+#firstcrystal{
+    width: 90px;
+    height: 90px;
+    padding: 1%;
+
+}
+
+#secondcrystal{
+    width: 90px;
+    height: 90px;
+    padding: 1%;
+    
+}
+#thirdcrystal{
+    width: 90px;
+    height: 90px;
+    padding: 1%;
+}
+
+#fourthcrystal{
+    width: 90px;
+    height: 90px;
+    padding: 1%;
+}
+
+#container{
+    position: center;
+   
+
+}
+body{
+    background-image: url("img.jpeg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: middle;
+  background-repeat: no-repeat;
+    position: cover;
+    position: center;
+    text-align: center;
+   font-family: 'Turret Road', cursive;
+    font-size: 30px;
+
+}
